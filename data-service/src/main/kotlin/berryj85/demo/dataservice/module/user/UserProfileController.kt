@@ -1,4 +1,4 @@
-package berryj85.demo.dataservice.module
+package berryj85.demo.dataservice.module.user
 
 import berryj85.demo.dataservice.module.response.UserProfile
 import org.springframework.graphql.data.method.annotation.Argument
@@ -6,7 +6,6 @@ import org.springframework.graphql.data.method.annotation.SchemaMapping
 import org.springframework.stereotype.Controller
 import reactor.core.publisher.Mono
 import java.math.BigDecimal
-import java.time.Duration
 
 @Controller
 class UserProfileController(val userProfileService: UserProfileService) {

@@ -1,4 +1,4 @@
-package berryj85.demo.dataservice.module
+package berryj85.demo.dataservice.module.user
 
 import berryj85.demo.dataservice.module.response.UserProfile
 import org.apache.logging.log4j.LogManager
