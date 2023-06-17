@@ -1,0 +1,9 @@
+type Query{
+    userProfile(username:String!):UserProfile
+}
+type UserProfile {
+    username: String
+    creditBalance: Float
+    couponBalance(username:String): Int
+    coinBalance: Float
+}

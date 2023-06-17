@@ -1,0 +1,10 @@
+server:
+  port: 18081
+
+spring:
+  webflux:
+    base-path: /data-service
+  graphql:
+    path: /graphql
+    graphiql:
+      enabled: true

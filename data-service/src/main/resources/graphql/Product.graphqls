@@ -1,0 +1,25 @@
+extend type Query {
+    products:[Product]
+    product(productId:Int):Product
+}
+type Product{
+    productId:Int
+    productName:String
+    price:Float
+    description: ProductDescription
+}
+type ProductDescription{
+    specification: String
+    weight: String
+    dimension: ProductionDimension
+}
+type ProductionDimension{
+    Width: Float
+    High: Float
+    Depth: Float
+    unit: DimensionUnit
+}
+enum DimensionUnit{
+    CM
+    MM
+}
